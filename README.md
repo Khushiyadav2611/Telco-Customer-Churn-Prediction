@@ -56,11 +56,14 @@ Retention efforts should prioritize **month-to-month, fiber optic customers with
 ## Repo Structure
 
 ```
-├── telco_ibm_churn.xlsx       # raw dataset
 ├── churn_analysis.py          # full analysis script (EDA + modeling)
+├── churn_reasons_chart.png
+├── churn_heatmap.png
 ├── README.md
 ```
-
+> **Note:** The dataset isn't included in this repo. Download it from the 
+> [Kaggle link above](https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset) 
+> and place it in the project folder before running the script.
 ## How to Run
 
 ```bash
